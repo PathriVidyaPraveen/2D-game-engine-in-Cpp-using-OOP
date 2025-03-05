@@ -50,3 +50,17 @@ Functional Requirements :
   6️) Gameplay & Win/Loss Conditions
     If the player touches an enemy → game over.
     If the player reaches a goal → win.
+
+
+
+Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL/Direct3D/Metal/Vulkan. It is used by video playback software, emulators, and popular games including Valve's award winning catalog and many Humble Bundle games.
+
+SDL officially supports Windows, macOS, Linux, iOS, and Android. Support for other platforms may be found in the source code.
+
+SDL is written in C, works natively with C++, and there are bindings available for several other languages, including C# and Python.
+
+SDL 2.0 is distributed under the zlib license. This license allows you to use SDL freely in any software.
+
+This is the SDL wiki; SDL's main website is libsdl.org.
+
+This wiki is your portal to documentation and other resources for SDL 2.0.
