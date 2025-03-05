@@ -64,3 +64,10 @@ SDL 2.0 is distributed under the zlib license. This license allows you to use SD
 This is the SDL wiki; SDL's main website is libsdl.org.
 
 This wiki is your portal to documentation and other resources for SDL 2.0.
+
+
+
+For more details regarding the documentation of SDL2 , please refer to the following .
+https://wiki.libsdl.org/SDL2/FrontPage
+
+
