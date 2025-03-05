@@ -172,3 +172,15 @@ A clean, well-structured game engine that works smoothly.
 A fully working 2D game engine in C++ (SDL2).
 You will have learned OOP, game loops, physics, input handling, and rendering.
 You will have written 1000+ lines of code in a structured way.
+
+
+
+Installing SDL2 on your machine :
+
+Follow these steps to install SDL2 and run windows on your Linux/Ubuntu terminal by opening the terminal and entering the following commands.
+sudo apt update
+sudo apt install libsdl2-dev
+
+Compile and run checkInstallSDL.cpp to check whether SDL2 is properly installed on your machine.
+
+
