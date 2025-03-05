@@ -71,3 +71,104 @@ For more details regarding the documentation of SDL2 , please refer to the follo
 https://wiki.libsdl.org/SDL2/FrontPage
 
 
+📝 Detailed Problem Statement for the 2D Game Engine in C++ (SDL2)
+This will be broken into step-by-step milestones, each with a detailed problem statement so that you can work on them one by one.
+
+📌 Step 1: SDL2 Setup and Basic Window Rendering
+🎯 Goal:
+Set up SDL2 and create a window where graphics will be drawn.
+
+🔹 Problem Statement:
+Install and set up SDL2 on your system.
+Initialize SDL2 and create a window (800x600 resolution).
+Create an SDL_Renderer to draw objects.
+Set up a game loop that continuously updates the screen.
+Implement event handling so that the window closes when you press ESC or click the close button.
+🔹 Expected Output:
+A black SDL2 window that stays open until you press ESC or click "X".
+📌 Step 2: Create a Basic Game Object (OOP)
+🎯 Goal:
+Define a base GameObject class using encapsulation.
+
+🔹 Problem Statement:
+Create a class GameObject with attributes:
+x, y (position).
+dx, dy (velocity).
+texture (for storing images).
+Implement methods:
+void Update() → Moves the object based on velocity.
+void Render(SDL_Renderer*) → Draws the object.
+Load an image as a texture and apply it to the GameObject.
+🔹 Expected Output:
+A simple square or sprite appearing in the window.
+📌 Step 3: Player Movement (Keyboard Input)
+🎯 Goal:
+Control a player object using keyboard input.
+
+🔹 Problem Statement:
+Create a Player class that inherits from GameObject.
+Add keyboard controls:
+W → Move up.
+S → Move down.
+A → Move left.
+D → Move right.
+Implement void HandleInput(SDL_Event&) to update velocity based on key presses.
+Render the player on the screen and move it based on key inputs.
+🔹 Expected Output:
+Pressing WASD moves the player smoothly in 2D space.
+📌 Step 4: Adding Enemy Objects (AI Movement)
+🎯 Goal:
+Create Enemy objects that move automatically.
+
+🔹 Problem Statement:
+Create an Enemy class that inherits from GameObject.
+Implement an AI movement pattern:
+Move left and right automatically.
+Spawn multiple enemies at random positions.
+Enemies should bounce when they hit the screen edges.
+🔹 Expected Output:
+Enemies move left-right continuously and bounce at edges.
+📌 Step 5: Collision Detection
+🎯 Goal:
+Detect when the player collides with an enemy.
+
+🔹 Problem Statement:
+Implement bool CheckCollision(GameObject*, GameObject*).
+If the player touches an enemy, print "Game Over" and stop movement.
+Draw a boundary box around objects to visualize collisions.
+🔹 Expected Output:
+The game prints "Game Over" when the player collides with an enemy.
+📌 Step 6: Adding a Win Condition (Goal Object)
+🎯 Goal:
+The player wins when reaching a goal object.
+
+🔹 Problem Statement:
+Create a Goal class (inherits from GameObject).
+Spawn a Goal object at a random position.
+If the player touches the goal, print "You Win!" and stop the game.
+🔹 Expected Output:
+If the player reaches the goal, the game prints "You Win!".
+📌 Step 7: Improving Physics (Gravity & Friction)
+🎯 Goal:
+Add basic gravity and friction to movement.
+
+🔹 Problem Statement:
+Implement gravity (increase dy over time).
+Implement friction (reduce dx gradually).
+The player should fall unless on a platform.
+🔹 Expected Output:
+The player falls due to gravity and slows down due to friction.
+📌 Step 8: Organizing Code & Final Touches
+🎯 Goal:
+Refactor code to follow best practices.
+
+🔹 Problem Statement:
+Organize classes in separate files (Player.h, Enemy.h, etc.).
+Implement a GameManager class to control the game state.
+Add comments and improve performance.
+🔹 Expected Output:
+A clean, well-structured game engine that works smoothly.
+🚀 Final Outcome
+A fully working 2D game engine in C++ (SDL2).
+You will have learned OOP, game loops, physics, input handling, and rendering.
+You will have written 1000+ lines of code in a structured way.
