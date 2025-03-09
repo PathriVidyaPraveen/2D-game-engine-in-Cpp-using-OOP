@@ -1,3 +1,8 @@
+Disclaimer :
+Currently under development.
+
+
+
 This repo is created for a project of developing a 2D Game Engine in C++ using SDL2.
 The main idea of this project is to develop a basic 2D Game Engine in C++ using SDL2, applying OOP principles like Encapsulation, Inheritance, and Design Patterns. The engine should allow users to create a simple game with:
 
